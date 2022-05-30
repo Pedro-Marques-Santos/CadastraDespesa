@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+    font-family:"Nunito" ,Arial, Helvetica, sans-serif ;
+    background: rgb(241, 241, 241);
+}
+
+header {
+    background: wheat;
+    box-shadow: inset 0 0 2px 2px rgb(224, 202, 160);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    background: wheat;
+}
+
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 15px;
+}  
+
+.centralizar_logo_titulo {
+    margin: auto 0;
+}
+
+/* section 1 */
+
+section.abertura_cadastro {
+    background: wheat;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1em;
+    padding: 5px;
+    font-weight: 300;
+}
+
+.abertura_cadastro{
+    width: 400px;
+    margin: 0 auto;
+    padding: 0em 1em 1em 1em;
+    border: 1px solid rgb(146, 146, 146);
+}
+  
+.abertura_cadastro input, .abertura_cadastro select {
+    box-sizing: border-box;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 157, 94);
+}
+
+.buttonsalvar {
+    font-size:15px;
+    font-family:Arial;
+    width:141px;
+    height:43px;
+    border-width:0px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:34px;
+    border-top-right-radius:34px;
+    border-bottom-left-radius:34px;
+    border-bottom-right-radius:34px;
+    text-shadow: 0px 1px 0px rgba(72, 154, 182, 1);
+    background:linear-gradient(#599bb3, #408c99);
+}
+
+.centralizar_button {
+    width: 141px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.buttonsalvar{
+    cursor: pointer;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.marcador-1{
+    border: 1px solid red;
+}
+
+/* CONSULTAR_DESPESAS */
+
+section.despesa_consulta {
+    background: wheat;
+}
+
+.despesa_consulta {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid rgb(126, 124, 124);
+    padding: 10px;
+}
+
+.depesa_consulta_conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.despesa_consulta_item {
+    width: 200px;
+    height: 130px;
+    margin: 5px;
+    border: 1px solid gray;
+}
+
+h5, h4 {
+    padding: 10px;
+}
+
+h5 {
+    font-weight: 100;
+    font-size: 1em;
+}
+
+div.despesa_consulta_item {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 800px) { 
+    .despesa_consulta {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) { 
+    .despesa_consulta {
+        width: 400px;
+    }
+}
